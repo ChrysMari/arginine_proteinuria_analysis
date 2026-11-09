@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local analysis outputs
+results/*
+!results/.gitkeep
+
+# Deposited input data are not committed to GitHub.
+data/proteomics/*
+!data/proteomics/README.md
+
+data/metabolomics/*
+!data/metabolomics/README.md
+
+# Temporary files
+*.tmp
+~$*
